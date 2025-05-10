@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh; 
+}
+
+.main_header {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.main_header img {
+    width: 75px;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.profile-img {
+    width: 380px;
+    height: 380px;
+    border-radius: 100%;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name {
+    font-weight: bold;
+    margin-right: auto
+}
+
+.portfolio-section {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.portfolio-section h1 {
+    font-size: 30px;
+}
+
+.portfolio-section p {
+    font-size: 23px;
+    margin-top: -10px;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto; 
+}
+
+.footer .social-links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer .social-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.footer .social-links a:hover {
+    color: #ffcc00;
+}
