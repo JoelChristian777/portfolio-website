@@ -7,6 +7,30 @@ body {
     min-height: 100vh; 
 }
 
+.main_header {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.main_header img {
+    width: 75px;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
 .profile-img {
     width: 380px;
     height: 380px;
@@ -15,6 +39,11 @@ body {
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.name {
+    font-weight: bold;
+    margin-right: auto
 }
 
 .portfolio-section {
